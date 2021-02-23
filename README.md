@@ -1,12 +1,6 @@
 # Pneumonia Chest X-Ray Classification
 > Classifying pneumonia-infected chest x-ray scans using Convolutional Neural Network with Transfer Learning.
 
-- toc: true 
-- badges: true
-- comments: true
-- categories: [jupyter, code, python, deeplearning]
-- image: images/layer-f.png
-
 ## Background
 ### Chest X-Ray Image Dataset
 The dataset used for this task if from a [Kaggle dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) by Paul Mooney. It consists of two kinds of chest x-rays, those infected by pneumonia, and the other being normal. Our main goal is to distinguish which chest corresponds to pneumonia-infected ones and which aren't. Note that the dataset is highly imbalanced, like many medical image dataset are.
